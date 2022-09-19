@@ -34,7 +34,7 @@ int main()
     //now we can send and recv data
     char client_name[30];
     recv(client_socket,client_name,sizeof(client_name),0);
-    printf("\nClient name is %s\n",client_name);
+    printf("\nClient name in server 1 is %s\n",client_name);
     strcat(servMessage,client_name);
 
     send(client_socket,servMessage,sizeof(servMessage),0);
