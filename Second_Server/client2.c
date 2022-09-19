@@ -28,7 +28,7 @@ int main()
 	//check for error in connection
 	if(con_status==-1)
 	{
-		printf("error not connected\n");
+		printf("error not connected to s1\n");
 	}
 	char name[30];
 	printf("Enter your name: ");
